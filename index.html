@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Steaks</title>
-  </head>
-
+<head>
+<meta charset=utf-8 />
+<meta name="viewport"
+content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0,
+maximum-scale=1.0, user-scalable=no" />
+<!-- Add to homescreen for Chrome on Android. Fallback for manifest.json -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="PingPong">
+ <!-- Add to homescreen for Safari on iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="PingPong">
+<!-- Homescreen icons -->
+<link rel="apple-touch-icon" sizes="192x192" href="/icon/icon-192x192.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/icon/icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel='manifest' href='manifest.json'>
+<!-- kein / vor manifest.json sonst wird nicht im selben Ordner gesucht -->
+<title>PingPong</title>
+</head>
   <body bgcolor="black">
     <div id="score">Steaks: 0</div>
     <canvas id="snakeboard" width="400" height="400"></canvas>
@@ -178,3 +195,7 @@
     }
   </script>
 </html>
+
+
+
+
